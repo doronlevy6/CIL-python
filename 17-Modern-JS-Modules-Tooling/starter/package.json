@@ -1,0 +1,25 @@
+{
+  "name": "modules",
+  "version": "1.0.0",
+  "description": "Modern JS",
+  "default": "index.html",
+  "browserslist": "> 1%, last 2 versions, not dead, not ie 11",
+  "targets": {
+    "main": false
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Doron",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.5.0"
+  },
+  "dependencies": {
+    "core-js": "^3.22.3",
+    "leaflet": "^1.8.0",
+    "lodash-es": "^4.17.21",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
